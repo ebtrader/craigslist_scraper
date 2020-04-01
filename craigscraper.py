@@ -9,7 +9,6 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 url = input('Enter - ')
-#url = "https://boston.craigslist.org/search/sof"
 
 # Getting the webpage, creating a Response object.
 response = requests.get(url)
